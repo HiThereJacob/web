@@ -1,0 +1,16 @@
+<!-- templates/profiles/profile.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ user.display_name }}'s Profile</title>
+</head>
+<body>
+    <h1>{{ profile.display_name }}</h1>
+    <p>Username: {{ user.username }}</p>
+    <p>Total Media: {{ user.total_media }}</p>
+    <p>Total Photos: {{ user.total_photo }}</p>
+    <p>Total Videos: {{ user.total_video }}</p>
+    <p>Profile Views: {{ user.profile_view }}</p>
+</body>
+</html>
